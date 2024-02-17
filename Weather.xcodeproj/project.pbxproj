@@ -11,6 +11,7 @@
 		0637428A2B80C24400CCE9AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063742892B80C24400CCE9AF /* ContentView.swift */; };
 		0637428C2B80C24500CCE9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0637428B2B80C24500CCE9AF /* Assets.xcassets */; };
 		0637428F2B80C24500CCE9AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0637428E2B80C24500CCE9AF /* Preview Assets.xcassets */; };
+		063742962B80CA1F00CCE9AF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063742952B80CA1F00CCE9AF /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		063742892B80C24400CCE9AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0637428B2B80C24500CCE9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0637428E2B80C24500CCE9AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		063742952B80CA1F00CCE9AF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				063742892B80C24400CCE9AF /* ContentView.swift */,
 				0637428B2B80C24500CCE9AF /* Assets.xcassets */,
 				0637428D2B80C24500CCE9AF /* Preview Content */,
+				063742952B80CA1F00CCE9AF /* BackgroundView.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063742962B80CA1F00CCE9AF /* BackgroundView.swift in Sources */,
 				0637428A2B80C24400CCE9AF /* ContentView.swift in Sources */,
 				063742882B80C24400CCE9AF /* WeatherApp.swift in Sources */,
 			);
