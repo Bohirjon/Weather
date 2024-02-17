@@ -12,6 +12,7 @@
 		0637428C2B80C24500CCE9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0637428B2B80C24500CCE9AF /* Assets.xcassets */; };
 		0637428F2B80C24500CCE9AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0637428E2B80C24500CCE9AF /* Preview Assets.xcassets */; };
 		063742962B80CA1F00CCE9AF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063742952B80CA1F00CCE9AF /* BackgroundView.swift */; };
+		0637429A2B80CBC500CCE9AF /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063742992B80CBC500CCE9AF /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0637428B2B80C24500CCE9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0637428E2B80C24500CCE9AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		063742952B80CA1F00CCE9AF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		063742992B80CBC500CCE9AF /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		063742862B80C24400CCE9AF /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				063742972B80CBB300CCE9AF /* Model */,
 				063742872B80C24400CCE9AF /* WeatherApp.swift */,
 				063742892B80C24400CCE9AF /* ContentView.swift */,
 				0637428B2B80C24500CCE9AF /* Assets.xcassets */,
@@ -68,6 +71,14 @@
 				0637428E2B80C24500CCE9AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		063742972B80CBB300CCE9AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				063742992B80CBC500CCE9AF /* Day.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			files = (
 				063742962B80CA1F00CCE9AF /* BackgroundView.swift in Sources */,
 				0637428A2B80C24400CCE9AF /* ContentView.swift in Sources */,
+				0637429A2B80CBC500CCE9AF /* Day.swift in Sources */,
 				063742882B80C24400CCE9AF /* WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
